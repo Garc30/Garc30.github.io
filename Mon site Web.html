@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+	
+	<meta charset="utl-8"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" href="style.css">
+	<title>Mon site Web</title>
+	
+	<script>
+	function openCity(cityName) 
+	{
+		var i;
+		var x = document.getElementsByClassName("city");
+		for (i = 0; i < x.length; i++) 
+		{
+			x[i].style.display = "none";  
+		}
+	document.getElementById(cityName).style.display = "block";  
+	}
+ </script>
+
+	</head>
+	
+	<body class="w3-black">
+	
+	<nav class="w3-sidebar w3-bar-block w3-small w3-center w3-light-grey w3-animate-left">
+		<img src="delorean.gif" style="width:100%">
+			<div class="w3-bar-item w3-button w3-padding-large w3-hover-purple" onclick="openCity('HOME')"><span class="bi-house-door-fill w3-xxlarge"></span></div>
+			<div class="w3-bar-item w3-button w3-padding-large w3-hover-yellow" onclick="openCity('SKILLS')"><span class="bi-ui-checks-grid w3-xxlarge"></span></div>
+			<div class="w3-bar-item w3-button w3-padding-large w3-hover-light-green" onclick="openCity('PROJECT')"><span class="bi-terminal-fill w3-xxlarge"></span></div>
+			<div class="w3-bar-item w3-button w3-padding-large w3-hover-red" onclick="openCity('CONTACT')"><span class="bi-telephone-fill  w3-xxlarge"></span></div>
+	</nav>
+	
+	<div class="w3-padding-large" id="main">
+		<header class="w3-container w3-padding-32 w3-center w3-animate-left">
+			<img src="Moi.jpg" alt="Ma photo" class="w3-circle" style="width:27%">
+			<h1 class="ouais w3-hover-opacity">Galindo Adrian</h1>
+			<p class="ouais w3-animate-fading">Bienvenue! </p>
+		</header>
+	</div>
+	
+	
+	<div id="main">
+		<div class="w3-panel w3-animate-left w3-purple w3-rightbar w3-border-deep-purple city" style="display:none;" id="HOME">
+			<h2 class="ouais w3-hover-opacity w3-padding-16">Hola !</h2>
+			<p class="ouais w3-hover-opacity" align="center">
+			Je m'appelle Adrian Jesus Galindo Garcia, j'ai 18 ans, je viens d'Amérique Latine, plus précisément,
+			du Pérou et aujourd'hui, je vais vous parler de qui je suis avec plus de précision.
+			Je suis une personne qui adore apprendre des nouvelles compétences, soit physique comme un nouveau sport,
+			soit mental comme un nouveau mode de vie, ou une nouvelle langue. Je suis quelqu'un qui arrive à se confondre avec les autres avec facilité,
+			quelqu'un qui aime aider les autres, d'esprit ouvert, énergétique, gentil, autodidacte, qui ne baisse pas les bras facilement et qui adore sa famille.
+			</p>
+			<img src="rick.gif" alt="rick" class="w3-right" style="width:12%">
+		</div>
+	</div>
+		
+	<div id="main">
+		<div class=" w3-animate-left w3-panel w3-yellow w3-rightbar w3-border-amber city" style="display:none;" id="SKILLS">
+			<h2 class="ouais w3-hover-opacity w3-padding-16">Sais-je faire quelque chose ?</h2>
+				<div class="w3-row-padding w3-margin-top">
+				<div class="w3-third">
+				<div class="w3-card-4 w3-ripple" style="width:300px">
+					<img src="programmeur.jpg" alt="programmeur" style="width:100%">
+					<div class="w3-container w3-center w3-sand">
+						<p class="ouais">Programmeur</p>
+						<i class="bi-star-fill"></i>
+						<i class="bi-star-half"></i>
+						<i class="bi-star"></i>
+						<i class="bi-star"></i>
+						<i class="bi-star"></i>
+					</div>
+				</div>
+				</div>
+				</div>
+			<img src="morty.gif" alt="rick" class="w3-right" style="width:12%">
+		</div>
+	</div>
+	
+	<div id="main">
+		<div class="w3-animate-left w3-panel w3-light-green w3-rightbar w3-border-green city" style="display:none;" id="PROJECT">
+			<h2 class="ouais w3-hover-opacity w3-padding-16">Quelques projets</h2>
+				<div class="w3-row-padding w3-margin-top">
+				<div class="w3-third">
+				<div class="w3-card-4 w3-ripple" style="width:300px">
+					<img src="arduino.png" alt="arduino" style="width:100%">
+					<div class="w3-container w3-center w3-sand">
+						<p class="ouais">Arduino</p>
+						<i class="bi-star-fill"></i>
+						<i class="bi-star-half"></i>
+						<i class="bi-star"></i>
+						<i class="bi-star"></i>
+						<i class="bi-star"></i>
+					</div>
+				</div>
+				</div>
+				
+				<div class="w3-third">
+				<div class="w3-card-4 w3-ripple" style="width:300px">
+					<img src="reseau.jpg" alt="arduino" style="width:100%">
+					<div class="w3-container w3-center w3-sand">
+						<p class="ouais">Réseau</p>
+						<i class="bi-star-fill"></i>
+						<i class="bi-star-half"></i>
+						<i class="bi-star"></i>
+						<i class="bi-star"></i>
+						<i class="bi-star"></i>
+					</div>
+				</div>
+				</div>
+				</div>
+				<img src="rick2.gif" alt="rick" class="w3-right" style="width:12%">
+			</div>
+	</div>
+	
+	
+	<div id="main">
+		<div class="w3-animate-left w3-panel w3-red w3-rightbar w3-border-orange city" style="display:none;" id="CONTACT">
+			<h2 class="ouais w3-hover-opacity">Si vous voulez mon 06...</h2>				
+				<img src="morty2.gif" alt="rick" class="w3-right" style="width:12%">	
+				<p class="ouais">
+					<i class="w3-xlarge bi-geo-alt-fill"></i> Puteaux |</br>
+					<i class="w3-xlarge bi-phone-fill"></i> Phone: +33 622932646 |</br>
+					<i class="w3-xlarge bi-envelope-fill"></i> Email: <a class="w3-hover-opacity" href="mailto: g4l1nd0g@gmail.com">g4l1nd0g@gmail.com |</a>
+				</p>
+			</form>
+		</div>
+	</div>
+	
+	<br>
+	
+	<footer class=" w3-center w3-animate-left w3-hover-opacity ouais" id="main">
+		<p>by @Galindo_Adrian 2022</p>
+	</footer>
+	
+	</body>
+
+</html>
